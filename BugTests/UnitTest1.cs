@@ -4,7 +4,7 @@ using BugPro;
 namespace BugTests
 {
     [TestClass]
-    public class BugWorkflowTests
+    public class UnitTest1
     {
         [TestMethod]
         public void NewBug_ShouldStartInCreatedState()
