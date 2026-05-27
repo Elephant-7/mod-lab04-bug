@@ -10,7 +10,7 @@ namespace BugTests
         public void NewBug_ShouldStartInCreatedState()
         {
             var bug = new Bug();
-            Assert.IsTrue(bug.State == BugState.New, "Initial state must be New");
+            Assert.AreEqual(BugState.New, bug.State, "Initial state must be New");
         }
 
         [TestMethod]
